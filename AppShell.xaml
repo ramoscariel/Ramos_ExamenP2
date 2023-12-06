@@ -23,5 +23,14 @@
      />
         </Tab>
     </FlyoutItem>
+    <FlyoutItem Title="Contador caracteres"
+            Icon="{OnPlatform 'icon_notes.png', iOS='icon_notes_ios.png', MacCatalyst='icon_notes_ios.png'}">
+        <Tab>
+            <ShellContent
+        Title="Contador caracteres"
+        ContentTemplate="{DataTemplate views:CalculatorPage}"
+         />
+        </Tab>
+    </FlyoutItem>
 
 </Shell>
